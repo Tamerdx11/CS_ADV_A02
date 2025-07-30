@@ -193,7 +193,7 @@ internal class Program
     // Q05: function to remove duplicates from an array
     static void RemoveDuplicates<T>(ref T[] arr)
     {
-        HashSet<T> uniqueElements = [.. arr]; // [.. arr] => Collection Expression
+        HashSet<T> uniqueElements = [.. arr];
         arr = [.. uniqueElements];
     }
 
